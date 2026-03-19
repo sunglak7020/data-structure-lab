@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v145:VCToolArchitecture=Native64Bit:VCToolsVersion=14.50.35717:VCServicingVersionCompilers=14.50.35725:TargetPlatformVersion=10.0.26100.0:
 Debug|x64|C:\Users\USER\Documents\data-structure-lab\Lec02_Findmax\|
+=======
+PlatformToolSet=v145:VCToolArchitecture=Native64Bit:VCToolsVersion=14.50.35717:VCServicingVersionCompilers=14.50.35725:TargetPlatformVersion=10.0.26100.0:
+Debug|x64|C:\Users\USER\Documents\data-structure-lab\Lec02_Findmax\|
+>>>>>>> 588e1cf978824a71a83aa87d1022efb31cd980e8
