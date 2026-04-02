@@ -1,0 +1,57 @@
+#pragma once
+#include <iostream>	
+#include <string>
+
+using namespace std;
+
+class Pet {
+protected:
+	string name;
+	int age;
+	string type;
+
+public:
+	//»ý¼ºÀÚ
+	Pet(string n, int a, string t)
+		: name(n), age(a), type(t) {
+	}
+
+	string getName() {
+		return name;
+	}
+
+	int getAge() {
+		return age;
+	}
+
+	string getType() {
+		return type;
+	}
+
+	void infoPet() {
+		cout << endl;
+		cout << "name: " << name << endl;
+		cout << "age: " << age << endl;
+		cout << "type: " << type << endl;
+		cout << endl;
+	}
+
+};
+
+class Puppy : public Pet {
+private:
+	string breed;
+public:
+	Puppy(string n, int a, string t, string b)
+		: Pet(n, a, t), breed(b) {
+	}
+	string getBreed() {
+		return breed;
+	}
+
+
+};
+
+
+
+
