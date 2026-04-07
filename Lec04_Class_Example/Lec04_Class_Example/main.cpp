@@ -4,6 +4,22 @@
 
 using namespace std;
 int main() {
+
+	//포인터 실습
+	int a = 10;
+	int* p;
+	p = &a;
+	cout << "a의 값: " << a << endl;
+	cout << "a의 주소: " << &a << endl;
+	cout << "p에 저장된 값(주소): " << p << endl;
+	cout << "p에 저장된 주소에 저장된 값: " << *p << endl;
+	*p = 20;
+	cout << "a의 값: " << a << endl;
+	cout << "a의 주소: " << &a << endl;
+	cout << "p에 저장된 값(주소): " << p << endl;
+	cout << "p에 저장된 주소에 저장된 값: " << *p << endl;
+	cout << "=================================" << endl;
+
 	Rectangle rect1(4, 6);
 	cout << "Rectangle 1: " << endl;
 	//printf("Rectangle 1: \n");
@@ -32,8 +48,9 @@ int main() {
 	myService.addMusic("Swim", "BTS", "ARIRANG", 2026);
 	myService.addMusic("BANG BANG", "IVE", "REVIVE", 2026);
 	myService.addMusic("404", "KiiKii", "Delulu", 2026);
+	myService.addMusic("DDuduDDudu", "Blackpink", "JumpAlbum", 2014);
 
-	//검색 해보기
+	//제목으로 검색해보기
 	string music_title;
 	cout << "Enter the Music Title: ";
 	cin >> music_title;
@@ -44,6 +61,23 @@ int main() {
 	else {
 		cout << "not Found" << endl;
 	}
+
+	//가수 이름으로 검색해보기
+	string artist_name;
+	cout << "Enter the artist name: ";
+	cin >> artist_name;
+
+	vector<Music*> artistResult = myService.searchByArtist(artist_name);
+	if (artistResult.size() > 0) {
+		cout << "Found" << artistResult.size() << "songs by" << artist_name << " : " << endl;
+		for (int i = 0; i < artistResult.size(); i++) {
+			cout << artistResult[i]->getTitle() << endl;
+		}
+	}
+	else {
+		cout << "Not Found" << endl;
+	}
+
 
 	return 0;
 }

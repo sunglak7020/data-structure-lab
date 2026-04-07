@@ -44,6 +44,8 @@ public:
 		musicList.push_back(newMusic);
 		cout << "\"" << title << "\" by \"" << artist << "\" is added to " << serviceName << endl;
 	}
+
+	//제목으로 음악 찾기
 	Music* searchByTitle(string title) {
 		for (int i = 0; i < musicList.size(); i++) {
 			if (musicList[i].getTitle() == title) {
@@ -51,6 +53,18 @@ public:
 			}
 		}
 		return NULL;
+	}
+
+	//가수로 음악 찾기
+	vector<Music*> searchByArtist(string artist) {
+		vector<Music*> result;
+		for (int i = 0; i < musicList.size(); i++) {
+			//artist와 musicList에 있는 artist가 같으면 result에 추가
+			if (musicList[i].getArtist() == artist) {
+				result.push_back(&musicList[i]);
+			}
+		}
+		return result;
 	}
 
 };
