@@ -4,13 +4,13 @@
 
 const int MAX_STACK_SIZE = 20; //스택 최대크기
 
-class ArrayStack {
+class StudentStack {
 	int top; //요소의 개수
 	int data[MAX_STACK_SIZE];
 
 public:
-	ArrayStack() { top = -1; }
-	~ArrayStack() {}
+	StudentStack() { top = -1; }
+	~StudentStack() {}
 	bool isEmpty() { return top == -1; }
 	bool isFull() { return top == MAX_STACK_SIZE - 1; }
 
