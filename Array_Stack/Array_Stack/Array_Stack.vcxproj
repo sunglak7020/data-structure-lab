@@ -128,7 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h" />
-    <ClInclude Include="StudentStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.cpp" />

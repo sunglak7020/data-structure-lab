@@ -1,0 +1,46 @@
+#pragma
+#include <stdio.h>
+#include <stdlib.h>
+#include "Student.h"
+
+const int MAX_STACK_SIZE = 20; //스택 최대크기
+
+class StudentStack {
+	int top; //요소의 개수
+	Student data[MAX_STACK_SIZE];
+
+public:
+	StudentStack() { top = -1; }
+	~StudentStack() {}
+	bool isEmpty() { return top == -1; }
+	bool isFull() { return top == MAX_STACK_SIZE - 1; }
+
+	inline void error(const char* message) {
+		printf("%s\n", message);
+		exit(1);
+	}
+
+	void push(Student e) { // 맨 위에 항목 삽입
+
+		if (isFull()) error("스택 공백 에러");
+		data[++top] = e;
+	}
+
+	Student pop() { // 삭제하고 요소 반환
+		if (isEmpty()) error("스택 공백 에러");
+		return data[top--];
+	}
+
+	Student peek() { // 삭제하지 않고 요소 반환
+		if (isEmpty()) error("스택 공백 에러");
+		return data[top];
+	}
+
+	void display() { // 스택 내용을 화면에 출력
+		printf("[스택 항목의 수 = %2d] ==> \n", top + 1);
+		for (int i = 0; i <= top; i++)
+			data[i].display();
+		printf("\n");
+	}
+
+};

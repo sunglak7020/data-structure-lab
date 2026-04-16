@@ -25,9 +25,9 @@ public:
 		data[++top] = e;
 	}
 
-	int pop() { // 삭제하지 않고 요소 반환
+	int pop() { // 삭제하고 요소 반환
 		if (isEmpty()) error("스택 공백 에러");
-		return data[top];
+		return data[top--];
 	}
 
 	int peek() { // 삭제하지 않고 요소 반환

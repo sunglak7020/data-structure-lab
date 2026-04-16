@@ -1,24 +1,3 @@
 ﻿  ArrayStack.cpp
-C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\StudentStack.h(7,11): error C2374: 'MAX_STACK_SIZE': 재정의. 여러 번 초기화했습니다.
-  (소스 파일 'ArrayStack.cpp'을(를) 컴파일하는 중)
-  C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\ArrayStack.h(5,11):
-  'MAX_STACK_SIZE' 선언을 참조하십시오.
-  
-C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\StudentStack.h(20,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  (소스 파일 'ArrayStack.cpp'을(를) 컴파일하는 중)
-  
-C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\StudentStack.h(21,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  (소스 파일 'ArrayStack.cpp'을(를) 컴파일하는 중)
-  
-C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\StudentStack.h(28,20): error C2011: 'StudentStack': 'class' 형식 재정의
-  (소스 파일 'ArrayStack.cpp'을(를) 컴파일하는 중)
-  C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\ArrayStack.h(7,7):
-  'StudentStack' 선언을 참조하십시오.
-  
-C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\ArrayStack.cpp(5,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
-C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\ArrayStack.cpp(6,15): error C2079: 'stack'은(는) 정의되지 않은 class 'StudentStack'을(를) 사용합니다.
-C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\ArrayStack.cpp(17,15): error C2079: 'stack'은(는) 정의되지 않은 class 'StudentStack'을(를) 사용합니다.
-C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\ArrayStack.cpp(17,15): error C2086: 'int stack': 재정의
-  C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\ArrayStack.cpp(6,15):
-  'stack' 선언을 참조하십시오.
-  
+C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\Array_Stack\ArrayStack.cpp(3,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  Array_Stack.vcxproj -> C:\Users\USER\Documents\lak-lab\data-structure-lab\Array_Stack\x64\Debug\Array_Stack.exe

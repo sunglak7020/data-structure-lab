@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Array_Stack", "Array_Stack\Array_Stack.vcxproj", "{60B1560C-0249-4CDD-A4EE-CD0707CB209A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "student", "student\student.vcxproj", "{00027BC9-C429-4106-B4D2-4E850DDF81C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{60B1560C-0249-4CDD-A4EE-CD0707CB209A}.Release|x64.Build.0 = Release|x64
 		{60B1560C-0249-4CDD-A4EE-CD0707CB209A}.Release|x86.ActiveCfg = Release|Win32
 		{60B1560C-0249-4CDD-A4EE-CD0707CB209A}.Release|x86.Build.0 = Release|Win32
+		{00027BC9-C429-4106-B4D2-4E850DDF81C4}.Debug|x64.ActiveCfg = Debug|x64
+		{00027BC9-C429-4106-B4D2-4E850DDF81C4}.Debug|x64.Build.0 = Debug|x64
+		{00027BC9-C429-4106-B4D2-4E850DDF81C4}.Debug|x86.ActiveCfg = Debug|Win32
+		{00027BC9-C429-4106-B4D2-4E850DDF81C4}.Debug|x86.Build.0 = Debug|Win32
+		{00027BC9-C429-4106-B4D2-4E850DDF81C4}.Release|x64.ActiveCfg = Release|x64
+		{00027BC9-C429-4106-B4D2-4E850DDF81C4}.Release|x64.Build.0 = Release|x64
+		{00027BC9-C429-4106-B4D2-4E850DDF81C4}.Release|x86.ActiveCfg = Release|Win32
+		{00027BC9-C429-4106-B4D2-4E850DDF81C4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
