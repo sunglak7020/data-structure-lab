@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\USER\Documents\lak-lab\data-structure-lab\Lec10_Graph\DFSmiro\main.cpp(21,13): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+  DFSmiro.vcxproj -> C:\Users\USER\Documents\lak-lab\data-structure-lab\Lec10_Graph\x64\Debug\Maze.exe
