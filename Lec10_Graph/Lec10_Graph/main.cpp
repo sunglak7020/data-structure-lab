@@ -44,7 +44,7 @@ int main()
 	//wg.display();
 
 	WGraphMST g3;
-	g3.load("graph.txt");
+	g3.load("../graph.txt");
 	cout << "입력 그래프: graph.txt" << endl;
 	g3.display();
 	cout << "MST By Kruskal's Algorithm" << endl;
