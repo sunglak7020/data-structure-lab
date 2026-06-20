@@ -1,1 +1,0 @@
-git remote set-url origin https://github.com/sunglak7020/data-structure-lab.git
